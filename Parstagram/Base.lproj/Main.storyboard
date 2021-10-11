@@ -111,7 +111,7 @@
         <!--Feed View Controller-->
         <scene sceneID="siR-TH-YiU">
             <objects>
-                <viewController id="WKS-c3-VTl" customClass="FeedViewController" customModule="Parstagram" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="WKS-c3-VTl" customClass="FeedViewController" customModule="Parstagram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="05c-YY-l2a">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -175,7 +175,7 @@
                     <navigationItem key="navigationItem" id="dTE-wl-TDe">
                         <barButtonItem key="rightBarButtonItem" title="Item" image="insta_camera_btn" id="wBq-nt-Hou">
                             <connections>
-                                <segue destination="Gf9-Bw-MB3" kind="presentation" modalPresentationStyle="fullScreen" id="HW0-9u-fxg"/>
+                                <segue destination="Gf9-Bw-MB3" kind="presentation" id="HW0-9u-fxg"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -190,7 +190,7 @@
         <!--Camera View Controller-->
         <scene sceneID="cvg-Hj-nm3">
             <objects>
-                <viewController id="Gf9-Bw-MB3" customClass="CameraViewController" customModule="Parstagram" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="Gf9-Bw-MB3" customClass="CameraViewController" customModule="Parstagram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bpW-Pd-00c">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
